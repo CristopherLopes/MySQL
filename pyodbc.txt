@@ -1,8 +1,8 @@
 -------------------------------------------------------
-atulizar pip via cmd windows, abrir como adm
+atualizar pip via cmd windows, abrir como adm
 python -m pip install --upgrade pip
 
-intalar conector mysql via cmd windows, abrir como adm
+instalar conector mysql via cmd windows, abrir como adm
 pip install mysql-connector-python
 
 -------------------------------------------------------
