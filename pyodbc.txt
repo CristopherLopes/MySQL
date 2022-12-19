@@ -1,0 +1,19 @@
+-------------------------------------------------------
+atulizar pip via cmd windows, abrir como adm
+python -m pip install --upgrade pip
+
+intalar conector mysql via cmd windows, abrir como adm
+pip install mysql-connector-python
+
+-------------------------------------------------------
+import pyodbc
+import mysql.connector
+conexao = mysql.connector.connect(
+    host='abc',
+    user='def',
+    password='ghi',
+    database='jkl',
+)
+
+cursor = conexao.cursor()
+-------------------------------------------------------
