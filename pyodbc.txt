@@ -16,4 +16,7 @@ conexao = mysql.connector.connect(
 )
 
 cursor = conexao.cursor()
+
+#conexao.commit() edita o banco
+#resultado = cursor.fetchall() ler o banco
 -------------------------------------------------------
